@@ -1,5 +1,12 @@
 # Javascript Code Test
 
-You need to refactor this class, it is a simple class that makes a call to a http API to retrieve a list of books and return them. Think about extensibility - how could you easily add other book seller APIs in the the future, handle different API formats, different query types (by publisher, by year published etc - things like that).
+`BookSearchApiClient` is a simple class that makes a call to a http API to retrieve a list of books and return them.
 
-Refactor this to what you consider to be production ready code. You can change it in anyway you would like and can use javascript or typescript.
+You need to refactor the `BookSearchApiClient` class, and demonstate in `example-client.js` how it would be used. Refactor to what you consider to be production ready code. You can change it in anyway you would like and can use javascript or typescript.
+
+Things you will be asked about:
+
+1. How could you easily add other book seller APIs in the the future
+2. How woud you manage differences in response payloads between differnt APIs without needing to make future changes to whatever code you have in example-client.js
+3. How would you implement different query types for example: by publisher, by year published etc
+4. How your code would be tested
