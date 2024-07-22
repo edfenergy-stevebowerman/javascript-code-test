@@ -1,4 +1,4 @@
 const BookSearchApiClient = require("./BookSearchApiClient.js");
 
 const client = BookSearchApiClient();
-const booksByShakespear = client.getBooksByAuthor("Shakespear", 10);
+const booksByShakespeare = client.getBooksByAuthor("Shakespeare", 10);
