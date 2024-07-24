@@ -2,13 +2,14 @@ function BookSearchApiClient(format) {
   this.format = format;
 }
 
-BookSearchApiClient.prototype.getBooksByAuthor = function (authorName, limit) {
+BookSearchApiClient.prototype.getBooksByQuery = function (url, queryName, queryValue, limit) {
   var result = [];
   var xhr = new XMLHttpRequest();
   xhr.open(
     "GET",
-    "http://api.book-seller-example.com/by-author?q=" +
-      authorName +
+      url +
+      queryName +
+      queryValue +
       "&limit=" +
       limit +
       "&format=" +
@@ -33,6 +34,8 @@ BookSearchApiClient.prototype.getBooksByAuthor = function (authorName, limit) {
         var xml = xhr.responseXML;
 
         result = xml.documentElement.childNodes.map(function (item) {
+        //create list of Books from Book class; populate individual objects' field and return the list.
+        //Do not know how to do it in Javascript as I am a Java programmer.
           return {
             title: item.childNodes[0].childNodes[0].nodeValue,
             author: item.childNodes[0].childNodes[1].nodeValue,
