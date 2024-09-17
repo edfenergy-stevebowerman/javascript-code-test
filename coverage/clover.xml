@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1726502565408" clover="3.2.0">
+  <project timestamp="1726502565408" name="All files">
+    <metrics statements="129" coveredstatements="129" conditionals="48" coveredconditionals="48" methods="7" coveredmethods="7" elements="184" coveredelements="184" complexity="0" loc="129" ncloc="129" packages="2" files="4" classes="4"/>
+    <package name="src">
+      <metrics statements="97" coveredstatements="97" conditionals="37" coveredconditionals="37" methods="4" coveredmethods="4"/>
+      <file name="BookSearch.js" path="/Users/tims/development/edf/javascript-code-test/src/BookSearch.js">
+        <metrics statements="97" coveredstatements="97" conditionals="37" coveredconditionals="37" methods="4" coveredmethods="4"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="6" count="21" type="cond" truecount="1" falsecount="0"/>
+        <line num="7" count="21" type="stmt"/>
+        <line num="8" count="21" type="stmt"/>
+        <line num="9" count="21" type="stmt"/>
+        <line num="10" count="21" type="cond" truecount="1" falsecount="0"/>
+        <line num="11" count="8" type="stmt"/>
+        <line num="12" count="8" type="stmt"/>
+        <line num="13" count="8" type="stmt"/>
+        <line num="14" count="8" type="stmt"/>
+        <line num="15" count="8" type="stmt"/>
+        <line num="16" count="8" type="stmt"/>
+        <line num="17" count="8" type="stmt"/>
+        <line num="18" count="8" type="stmt"/>
+        <line num="19" count="8" type="stmt"/>
+        <line num="20" count="8" type="stmt"/>
+        <line num="21" count="8" type="stmt"/>
+        <line num="22" count="8" type="cond" truecount="1" falsecount="0"/>
+        <line num="23" count="7" type="stmt"/>
+        <line num="24" count="7" type="stmt"/>
+        <line num="25" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="26" count="7" type="cond" truecount="1" falsecount="0"/>
+        <line num="27" count="7" type="stmt"/>
+        <line num="28" count="7" type="cond" truecount="1" falsecount="0"/>
+        <line num="29" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="30" count="7" type="cond" truecount="1" falsecount="0"/>
+        <line num="31" count="7" type="cond" truecount="1" falsecount="0"/>
+        <line num="32" count="21" type="stmt"/>
+        <line num="33" count="21" type="stmt"/>
+        <line num="34" count="21" type="stmt"/>
+        <line num="35" count="21" type="cond" truecount="1" falsecount="0"/>
+        <line num="36" count="21" type="cond" truecount="1" falsecount="0"/>
+        <line num="37" count="21" type="cond" truecount="1" falsecount="0"/>
+        <line num="38" count="21" type="cond" truecount="1" falsecount="0"/>
+        <line num="39" count="21" type="cond" truecount="1" falsecount="0"/>
+        <line num="40" count="21" type="cond" truecount="1" falsecount="0"/>
+        <line num="41" count="21" type="stmt"/>
+        <line num="42" count="21" type="stmt"/>
+        <line num="43" count="21" type="stmt"/>
+        <line num="44" count="21" type="stmt"/>
+        <line num="45" count="7" type="stmt"/>
+        <line num="46" count="7" type="cond" truecount="1" falsecount="0"/>
+        <line num="47" count="1" type="stmt"/>
+        <line num="48" count="21" type="stmt"/>
+        <line num="49" count="21" type="stmt"/>
+        <line num="50" count="21" type="cond" truecount="1" falsecount="0"/>
+        <line num="51" count="13" type="stmt"/>
+        <line num="52" count="13" type="stmt"/>
+        <line num="53" count="13" type="cond" truecount="1" falsecount="0"/>
+        <line num="54" count="13" type="stmt"/>
+        <line num="55" count="13" type="cond" truecount="1" falsecount="0"/>
+        <line num="56" count="13" type="stmt"/>
+        <line num="57" count="13" type="cond" truecount="1" falsecount="0"/>
+        <line num="58" count="13" type="stmt"/>
+        <line num="59" count="13" type="cond" truecount="1" falsecount="0"/>
+        <line num="60" count="13" type="cond" truecount="2" falsecount="0"/>
+        <line num="61" count="11" type="stmt"/>
+        <line num="62" count="11" type="stmt"/>
+        <line num="63" count="11" type="stmt"/>
+        <line num="64" count="11" type="stmt"/>
+        <line num="65" count="11" type="stmt"/>
+        <line num="66" count="11" type="stmt"/>
+        <line num="67" count="11" type="stmt"/>
+        <line num="68" count="11" type="stmt"/>
+        <line num="69" count="11" type="stmt"/>
+        <line num="70" count="11" type="stmt"/>
+        <line num="71" count="11" type="stmt"/>
+        <line num="72" count="11" type="stmt"/>
+        <line num="73" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="74" count="13" type="cond" truecount="1" falsecount="0"/>
+        <line num="75" count="13" type="cond" truecount="1" falsecount="0"/>
+        <line num="76" count="11" type="stmt"/>
+        <line num="77" count="11" type="cond" truecount="1" falsecount="0"/>
+        <line num="78" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="79" count="11" type="cond" truecount="1" falsecount="0"/>
+        <line num="80" count="11" type="cond" truecount="1" falsecount="0"/>
+        <line num="81" count="17" type="stmt"/>
+        <line num="82" count="17" type="stmt"/>
+        <line num="83" count="17" type="stmt"/>
+        <line num="84" count="17" type="cond" truecount="1" falsecount="0"/>
+        <line num="85" count="17" type="cond" truecount="1" falsecount="0"/>
+        <line num="86" count="17" type="cond" truecount="1" falsecount="0"/>
+        <line num="87" count="17" type="cond" truecount="1" falsecount="0"/>
+        <line num="88" count="17" type="cond" truecount="1" falsecount="0"/>
+        <line num="89" count="17" type="cond" truecount="1" falsecount="0"/>
+        <line num="90" count="17" type="stmt"/>
+        <line num="91" count="17" type="stmt"/>
+        <line num="92" count="17" type="stmt"/>
+        <line num="93" count="17" type="stmt"/>
+        <line num="94" count="11" type="stmt"/>
+        <line num="95" count="11" type="stmt"/>
+        <line num="96" count="21" type="stmt"/>
+        <line num="97" count="21" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.helper">
+      <metrics statements="32" coveredstatements="32" conditionals="11" coveredconditionals="11" methods="3" coveredmethods="3"/>
+      <file name="fetchApi.js" path="/Users/tims/development/edf/javascript-code-test/src/helper/fetchApi.js">
+        <metrics statements="13" coveredstatements="13" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="2" count="19" type="stmt"/>
+        <line num="3" count="19" type="stmt"/>
+        <line num="4" count="19" type="cond" truecount="1" falsecount="0"/>
+        <line num="5" count="7" type="stmt"/>
+        <line num="6" count="7" type="cond" truecount="1" falsecount="0"/>
+        <line num="7" count="12" type="stmt"/>
+        <line num="8" count="19" type="cond" truecount="2" falsecount="0"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="10" count="19" type="cond" truecount="1" falsecount="0"/>
+        <line num="11" count="7" type="stmt"/>
+        <line num="12" count="7" type="stmt"/>
+        <line num="13" count="19" type="stmt"/>
+      </file>
+      <file name="pagination.js" path="/Users/tims/development/edf/javascript-code-test/src/helper/pagination.js">
+        <metrics statements="6" coveredstatements="6" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="2" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="3" count="6" type="stmt"/>
+        <line num="4" count="6" type="stmt"/>
+        <line num="5" count="6" type="stmt"/>
+        <line num="6" count="6" type="stmt"/>
+      </file>
+      <file name="xmlParser.js" path="/Users/tims/development/edf/javascript-code-test/src/helper/xmlParser.js">
+        <metrics statements="13" coveredstatements="13" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
